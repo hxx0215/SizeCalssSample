@@ -30,7 +30,7 @@
 
 - (void)right:(id)sender{
     SizeClassSampleViewController *vc = [[SizeClassSampleViewController alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFormSheet;
+    vc.modalPresentationStyle = UIModalPresentationCurrentContext;
     [self presentViewController:vc animated:YES completion:^{
         
     }];
